@@ -35,6 +35,7 @@ size = (800,600)
 screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
 running = False
+poisonPositions = []
 feedRandomPosition = getRandomPosition()
 poisonRandomPosition = getRandomPosition()
 playerWidth = 10
